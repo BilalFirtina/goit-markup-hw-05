@@ -63,6 +63,47 @@
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
+      <!--Section Modal-->
+      <div class="section-modal">
+        <div class="bg-dark">
+        <form class="form-modal">
+          <div class="div-span"><span class="span-x">X</span></div>
+          
+          <p>Leave your contacts and we will call you back</p>
+          <label for="input-name"
+            >Name
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+            <input type="text" id="input-name" />
+          </label>
+          <label for="input-phone"
+            >Phone
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+            <input type="number" id="input-phone" />
+          </label>
+          <label for="input-email"
+            >Email
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-letter"></use>
+            </svg>
+            <input type="email" id="input-email" />
+          </label>
+          <label for="input-comment"
+            >Comment
+            <textarea id="input-comment" cols="30" rows="10"></textarea>
+          </label>
+          <label for="checkbox">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+            <input type="checkbox" name="" id="checkbox"
+          /></label>
+          </div>
+        </form>
+      </div>
 
       <!--Section Second-Paragraphs-->
       <section class="section-second">
@@ -534,24 +575,22 @@
           </ul>
         </div>
 
-        <form class="footer-form" action="">
+        <form class="footer-form">
           <label for="footer-mail" class="footer-label"
             >Subscribe
-            <div class="footer-input-div">
-              <input
-                type="email"
-                name="footer-mail"
-                class="footer-input"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="footer-button">
-                Subscribe
-                <svg class="icon-below" width="24" height="24">
-                  <use href="./images/icons.svg#icon-arrow"></use>
-                </svg>
-              </button>
-            </div>
+            <input
+              type="email"
+              id="footer-mail"
+              class="footer-input"
+              placeholder="E-mail"
+            />
           </label>
+          <button type="submit" class="footer-button">
+            Subscribe
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </footer>
