@@ -536,8 +536,8 @@ body {
 .modal-window-x {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-window-x:hover,
-.modal-window-x:active {
+.modal-window-button:hover use,
+.modal-window-button:focus use {
   fill: var(--white-background-color);
 }
 .modal-window-text {
