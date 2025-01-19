@@ -629,7 +629,7 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-input:checked + .checkbox-span {
+.checkbox-input:checked + .checkbox-label .checkbox-span {
   background-color: var(--hover-color);
   border: none;
   fill: var(--team-background);
