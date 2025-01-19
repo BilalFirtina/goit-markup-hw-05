@@ -629,12 +629,12 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-input:checked .checkbox-span {
+.checkbox-input:checked .checkbox-span use {
   background-color: var(--hover-color);
   border: none;
   fill: var(--team-background);
 }
-.checkbox-label a {
+.label-link {
   color: var(--text-web-color);
 }
 .modal-button {
