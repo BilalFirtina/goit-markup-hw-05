@@ -585,13 +585,13 @@
           </div>
 
           <div class="form-div">
-            <label for="user-name" class="label-name">Phone</label>
+            <label for="user-phone" class="label-name">Phone</label>
 
             <div class="form-name-div">
               <input
                 type="text"
-                id="user-name"
-                name="user-name"
+                id="user-phone"
+                name="user-phone"
                 class="input-name"
               />
               <svg width="18" height="24" class="input-svg">
@@ -601,13 +601,13 @@
           </div>
 
           <div class="form-div">
-            <label for="user-name" class="label-name">Email</label>
+            <label for="user-email" class="label-name">Email</label>
 
             <div class="form-name-div">
               <input
                 type="text"
-                id="user-name"
-                name="user-name"
+                id="user-email"
+                name="user-email"
                 class="input-name"
               />
               <svg width="18" height="24" class="input-svg">
@@ -615,16 +615,31 @@
               </svg>
             </div>
           </div>
-          <label for="input-comment"
-            >Comment
-            <textarea id="input-comment" cols="30" rows="10"></textarea>
-          </label>
-          <label for="checkbox">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-            <input type="checkbox" name="#" id="checkbox" />
-          </label>
+
+          <div class="form-name-div form-div-comment">
+            <label for="user-comment" class="label-name">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              class="textarea"
+              placeholder="Text input"
+            >
+            </textarea>
+          </div>
+          <div class="checkbox-div">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              class="checkbox-input"
+            />
+            <label for="checkbox">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </label>
+          </div>
         </form>
       </div>
     </div>
