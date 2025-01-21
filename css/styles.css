@@ -587,9 +587,7 @@ body {
 .input-name:focus + .input-svg {
   fill: var(--text-web-color);
 }
-.form-div-comment {
-  margin-bottom: 16px;
-}
+
 .textarea {
   width: 100%;
   height: 120px;
